@@ -1,0 +1,12 @@
+function showSection(sectionId) {
+    // Ukryj wszystkie sekcje
+    var sections = document.querySelectorAll('section');
+    sections.forEach(function(section) {
+        section.classList.add('hidden');
+    });
+
+    // Pokaż wybraną sekcję
+    var selectedSection = document.getElementById(sectionId);
+    selectedSection.classList.remove('hidden');
+}
+

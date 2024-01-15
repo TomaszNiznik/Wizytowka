@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Tomasz Niżnik - Strona Wizytówka</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('strona-glowna')">Strona główna</a></li>
+                <li><a href="#" onclick="showSection('o-mnie')">O mnie</a></li>
+                <li><a href="#" onclick="showSection('doswiadczenie')">Doświadczenie</a></li>
+                <li><a href="#" onclick="showSection('poznane-technologie')">Poznane technologie</a></li>
+                <li><a href="#" onclick="showSection('kontakt')">Kontakt</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Tomasz Niżnik</h1>
+            <p>Student</p>
+        </header>
+        <section id="strona-glowna">
+            <h2>Witaj na mojej stronie wizytówce!</h2>
+            <p>Tutaj znajdziesz informacje o moim doświadczeniu, umiejętnościach programistycznych oraz sposobach kontaktu.</p>
+			<br>
+            <p class="quote">"Odkrywaj tajniki kodu, kreuj innowacje, i pisz historię przyszłości - w świecie, gdzie każda linijka ma znaczenie.""<br></p>
+            <button onclick="showSection('o-mnie')">Przejdź do sekcji "O mnie"</button>
+        </section>
+        <section id="o-mnie" class="hidden">
+            <h2>O mnie</h2>
+            <p>Witam na mojej stronie wizytówce! Nazywam się Tomasz Niżnik i jestem studentem pierwszego roku na kierunku Informatyka Ekonomiczna na Uniwersytecie Akademii Nauk Stosowanych w Nowym Targu.</p>
+            <p>Jestem pasjonatem informatyki, a moje obecne studia pozwalają mi łączyć tę pasję z zagadnieniami ekonomicznymi. Studia te dostarczają mi wiedzy z obszaru informatyki, programowania oraz analizy danych, co pozwala mi rozwijać umiejętności potrzebne w dzisiejszym dynamicznym świecie technologicznym.</p>
+            <p>Zapraszam do odkrywania mojej strony, na której dzielę się informacjami o moim doświadczeniu zawodowym, umiejętnościach programistycznych oraz sposobach kontaktu. Jeśli masz pytania lub chciałbyś dowiedzieć się więcej, śmiało skontaktuj się ze mną!</p>
+        </section>
+        <section id="doswiadczenie" class="hidden">
+            <h2>Doświadczenie zawodowe</h2>
+            <p><strong>Serwis Komputerowy</strong></p>
+            <p>Byłem stażystą w serwisie komputerowym na stanowisku serwisanta. Staż trwał cały lipiec 2020 roku.</p>
+        </section>
+        <section id="poznane-technologie" class="hidden">
+            <h2>Poznane technologie</h2>
+            <ul>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <li>PHP</li>
+                <li>CSS</li>
+                <li>Python</li>
+            </ul>
+        </section>
+        <section id="kontakt" class="hidden">
+            <h2>Kontakt</h2>
+            <p><strong>Email:</strong> tomek6767@onet.pl</p>
+            <p><strong>Telefon:</strong> 0123456789</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Tomasz Niżnik. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
